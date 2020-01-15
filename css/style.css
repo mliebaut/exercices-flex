@@ -9,7 +9,6 @@
 }
 
 body {
-    display: flex;
     flex-direction: column;
 }
 
@@ -18,20 +17,31 @@ body {
 /**********************************/
 
 header {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: red;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 ul {
+    margin: 0;
+    padding: 0;
     display: flex;
     list-style: none;
 }
 
 li {
+    border: 1px solid black;
+    flex-grow: 1;
+    display: block;
     margin: auto;
 }
 
 a {
+    color: black;
     text-decoration: none;
 }
 
@@ -39,18 +49,49 @@ a {
 /**************CORPS***************/
 /**********************************/
 
+section {
+    display: flex;
+    flex: 3;
+    background-color: #AED8E6;
+}
+
+#section {
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+}
+
 #aside1 {
+    display: flex;
+    flex: 1;
     background-color: yellow;
 }
 
 #aside2 {
+    display: flex;
+    flex: 1;
     background-color: plum;
 }
 
+.aside {
+    margin: 15px;
+}
+
 article {
-    background-color: #AED8E6;
+    display: flex;
+    flex: 1;
+    margin: 15px;
+
 }
 
 /**********************************/
 /**************FOOTER**************/
 /**********************************/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: chartreuse;
+}
