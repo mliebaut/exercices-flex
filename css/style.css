@@ -8,10 +8,6 @@
     margin: 0;
 }
 
-body {
-    flex-direction: column;
-}
-
 /**********************************/
 /**************HEADER**************/
 /**********************************/
@@ -20,10 +16,9 @@ header {
     height: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: red;
     text-align: center;
-    padding-bottom: 10px;
 }
 
 ul {
@@ -50,6 +45,7 @@ a {
 /**********************************/
 
 section {
+    height: 500px;
     display: flex;
     flex: 3;
     background-color: #AED8E6;
@@ -61,15 +57,16 @@ section {
     justify-content: space-around;
 }
 
-#aside1 {
+#aside {
     display: flex;
     flex: 1;
+}
+
+.asideYellow {
     background-color: yellow;
 }
 
-#aside2 {
-    display: flex;
-    flex: 1;
+.asidePink {
     background-color: plum;
 }
 
@@ -81,7 +78,6 @@ article {
     display: flex;
     flex: 1;
     margin: 15px;
-
 }
 
 /**********************************/
