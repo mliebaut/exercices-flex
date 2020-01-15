@@ -56,16 +56,16 @@ section {
     justify-content: space-around;
 }
 
-#aside {
+#aside1 {
     display: flex;
     flex: 1;
-}
-
-.asideYellow {
     background-color: yellow;
 }
 
-.asidePink {
+#aside2 {
+    display: flex;
+    flex: 1;
+    background-color: yellow;
     background-color: plum;
 }
 
