@@ -22,16 +22,16 @@ header {
 }
 
 ul {
+    display: flex;
     margin: 0;
     padding: 0;
-    display: flex;
     list-style: none;
 }
 
 li {
+    display: block;
     border: 1px solid black;
     flex-grow: 1;
-    display: block;
     margin: auto;
 }
 
