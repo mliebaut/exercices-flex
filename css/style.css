@@ -16,7 +16,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: red;
+    background-color: #FE0000;
     text-align: center;
 }
 
@@ -59,14 +59,13 @@ section {
 #aside1 {
     display: flex;
     flex: 1;
-    background-color: yellow;
+    background-color: #FFFF01;
 }
 
 #aside2 {
     display: flex;
     flex: 1;
-    background-color: yellow;
-    background-color: plum;
+    background-color: #DDA0DC;
 }
 
 .aside {
@@ -89,5 +88,5 @@ footer {
     align-items: center;
     justify-content: center;
     height: 50px;
-    background-color: chartreuse;
+    background-color: #90EE90;
 }
