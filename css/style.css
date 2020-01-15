@@ -73,8 +73,9 @@ section {
     margin: 15px;
 }
 
-article {
+p {
     display: flex;
+    text-align: justify;
     flex: 1;
     margin: 15px;
 }
