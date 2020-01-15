@@ -1,0 +1,56 @@
+/**********************************/
+/************GENERALITES***********/
+/**********************************/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/**********************************/
+/**************HEADER**************/
+/**********************************/
+
+header {
+    background-color: red;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**********************************/
+/**************CORPS***************/
+/**********************************/
+
+#aside1 {
+    background-color: yellow;
+}
+
+#aside2 {
+    background-color: plum;
+}
+
+article {
+    background-color: #AED8E6;
+}
+
+/**********************************/
+/**************FOOTER**************/
+/**********************************/
